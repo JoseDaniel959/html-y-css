@@ -1,0 +1,45 @@
+/* TYPES OF SEECTORS */
+
+/* the next  examples are equivalent*/
+
+/* EXAMPLE 1*/
+h1{
+    color:blue   /*this is type selector */
+}
+
+.special{
+    color: blue /*this is a class selector*/
+}  
+
+/*EXAMPLE 2*/
+h1, .special {
+    color: blue;
+  }
+
+#unique {
+    background-color: bisque; /*this is a ID selector*/
+}
+
+a[title] {
+    background-color: brown; /*this is an attribute selector*/
+
+}
+
+
+a[href="https://example.com"]
+{
+}
+  
+a:hover {
+   background-color: yellowgreen; /*This is a pseudoclass selector. This types of selectors modify the state of the element*/
+}
+
+p::first-line /*Pseudo-elements selectors*/ 
+{ 
+
+}
+
+article > p {
+    background-color: peru; /*Combinators selectors*/
+
+}

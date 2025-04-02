@@ -1,0 +1,77 @@
+.pulser{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+.pulser:hover{
+    scale:2;
+    background-color: purple;
+    box-shadow:  0 0 10px peru;
+}
+
+.pulser2{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    transition-duration: 2s; /*hace una transicion de un estado hacia otro */
+}
+
+.pulser2:hover{
+    scale:2;
+    background-color: purple;
+    box-shadow:  0 0 10px peru;
+}
+
+.pulser3{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    transition-duration: 2s; /*hace una transicion de un estado hacia otro */
+    transition-property: scale; /*solo animo la scala*/
+}
+
+.pulser3:hover{
+    scale:2;
+    background-color: purple;
+    box-shadow:  0 0 10px peru;
+}
+
+.pulser4{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    transition-duration: 2s; /*hace una transicion de un estado hacia otro */
+    transition-timing-function: steps(5);
+}
+
+.pulser4:hover{
+    scale:2;
+    background-color: purple;
+    box-shadow:  0 0 10px peru;
+}
+
+.pulser5{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    transition: background-color 500ms ease-in-out,
+    scale 200ms ease-in-out
+}
+
+.pulser5:hover{
+    scale:2;
+    background-color: purple;
+    box-shadow:  0 0 10px peru;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}

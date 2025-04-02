@@ -1,0 +1,32 @@
+/*presence and value selectors*/
+.presence li[class] {
+    font-size: 200%;
+  }
+  
+.presence li[class="a"] {
+    background-color: yellow;
+  }
+  
+.presence li[class~="a"] {
+    color: red;
+  }
+
+.substring li[class^="a"] {
+    font-size: 200%;
+  }
+  
+.substring li[class$="a"] {
+    background-color: yellow;
+  }
+  
+.substring li[class*="a"] {
+    color: red;
+}
+
+.case li[class^="a"] {
+    background-color: yellow;
+}
+  
+.case li[class^="a" i] {
+    color: red;
+}

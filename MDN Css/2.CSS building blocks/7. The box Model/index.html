@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>The box model</h1>
+    <p>Everything in css is a box. The first type of books is a <b>Content-Box</b> and
+        its alternative is <b>border-box </b>.
+    </p>
+
+    <h2>Block and inline blocks</h2>
+    <h3>Block elements</h3>
+    <p>some block elements are div, section, p</p>
+    <ul>
+        <li>The box will break onto a new line</li>
+        <li>width and heigth properties are respected</li>
+        <li>Padding,Margin and border will push away other elements</li>
+        <li>if width is not specified then it will use the 100% of the space</li>
+    </ul>
+    <h3>Inline Block Elements</h3>
+    <p>some of them are a,em,span</p>
+    <ul>
+        <li>it won´t break onto a new line</li>
+        <li>There is no width and heigth property</li>
+        <li>Top and bottom margin, border and padding, will apply but not will push other elements</li>
+        <li>left and rigth margin, border and padding will push elements </li>
+    </ul>
+    <h2>Display types</h2>
+    <p>
+        Block and inline elements are outer display.This can be change using the display method
+        You can use display: inline, display: block , display: inline-flex to display: flex:
+    </p>
+
+    <h2>CSS box model</h2>
+    <h3>The standar model</h3>
+    <div>
+        <p>the css box model, is a standart that sets 4 types of distance inside the box:</p>
+        <p>part of a box:</p>
+        <ul>
+            <li>Content Box: is the space tha contains the content (the letters or images)</li>
+            <li>Padding Box: it is the space between the border box and content box</li>
+            <li>Border Box: T</li>
+            <li>Margin Box: this it the outtermost layer in the box model</li>
+        </ul>
+        <div class="outerbox">
+            <div class="box">
+                i am a box
+            </div>
+            <div class="other-box">
+                i am other box
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

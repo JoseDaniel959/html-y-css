@@ -1,0 +1,30 @@
+/*pseudo class are a special type of class that starts with : "*/
+
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+
+
+/*Pseudo Elements this are used for selecteing multiple elements*/
+/* article p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+} */
+
+/* ::before and ::after let you write html inside css rules*/
+
+.box::after {
+  content: "This should show before the other content. ";
+}

@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+  }
+  
+/*using multiple selectors*/
+p,
+li {
+  color: green;
+}
+
+/* this is used to take out the bullets o the dots*/
+li {
+    list-style-type: square
+    ;
+  }
+
+  .special {
+    color: orange;
+    font-weight: bold;
+  }
+
+  /* the rule above is the descendant selector*/
+  li em {
+    color: rebeccapurple;
+  }
+
+/*next-sibling combinator*/
+  h1 + p {
+    font-size: 200%;
+  }

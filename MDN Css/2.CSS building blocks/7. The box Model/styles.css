@@ -1,0 +1,23 @@
+.box{
+    border-color: brown;
+    border-width: 0.2em;
+    border-style: solid;
+    padding: 1em;
+    background-color: aqua  ;
+    width: 120px;
+
+}
+
+.other-box{
+    border-color: brown;
+    border-width: 0.2em;
+    border-style: solid;
+    padding: 1em;
+    background-color: aqua  ;
+    margin-left: 1em;
+}
+
+
+.outerbox{
+    display: flex;
+}

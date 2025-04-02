@@ -1,0 +1,24 @@
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: rgba(240, 7, 7, 0.815);
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+
+}
+html {
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  }
+
+  body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: orange;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
